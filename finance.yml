@@ -4,3 +4,5 @@ services:
   webTest:
     build: .
     image: test
+  hello:
+    image: hello-world:latest
